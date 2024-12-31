@@ -20,3 +20,17 @@
 ((name)=>{
     console.log(`Hi my name is ${name}`)
 })("Ashay");
+
+// ----------------any random interview question---------------
+function one(){
+    console.log("1");
+    three();
+}
+function two(){
+    console.log("2");
+}
+function three(){
+    console.log("3");
+    two(); 
+}
+one();
